@@ -3,7 +3,7 @@
 }
 
 .App-logo {
-  height: 40vmin;
+  height: 30vmin;
   pointer-events: none;
 }
 
@@ -11,6 +11,10 @@
   .App-logo {
     animation: App-logo-spin infinite 10s linear;
   }
+}
+
+.avatar {
+  height: 200px;
 }
 
 .main-cloud {
@@ -36,9 +40,20 @@
   font-family: Courier, monospace;
 }
 
+.title {
+  font-size: 30px;
+}
 
-.App-link {
-  color: #61dafb;
+
+a {
+  color: #f8a2ee;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-decoration: none;
+}
+
+a:hover {
+  color: #60f247;
 }
 
 @keyframes App-logo-spin {
