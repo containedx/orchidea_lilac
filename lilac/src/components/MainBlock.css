@@ -13,13 +13,24 @@
 }
 
 
-.App-logo {
+.cat {
     height: 30vmin;
-    animation: App-logo-spin infinite 10s linear;
+    animation: cat-spin infinite 10s linear;
 }
 
-.App-logo:hover {
-    animation: App-logo-spin infinite 5s linear;
+.cat:hover {
+    animation: cat-spin infinite 5s linear;
+}
+
+.links {
+    height: 100px;
+    display: flex;
+    /* Use flexbox */
+    justify-content: center;
+    /* Center horizontally */
+    align-items: center;
+    /* Center vertically */
+    flex-direction: column;
 }
 
 a {
@@ -27,13 +38,15 @@ a {
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
+    transition: font-size 0.3s ease;
 }
 
 a:hover {
     color: #60f247;
+    font-size: 24px;
 }
 
-@keyframes App-logo-spin {
+@keyframes cat-spin {
     from {
         transform: rotate(0deg);
     }
@@ -46,4 +59,9 @@ a:hover {
 
 .title {
     font-size: 30px;
+    transition: font-size 0.3s ease;
+}
+
+.title:hover {
+    font-size: 35px;
 }
