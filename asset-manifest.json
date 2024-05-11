@@ -1,0 +1,15 @@
+{
+  "files": {
+    "main.css": "/orchidea_lilac/static/css/main.286dbf45.css",
+    "main.js": "/orchidea_lilac/static/js/main.b4b31a3a.js",
+    "static/js/453.386fa6a6.chunk.js": "/orchidea_lilac/static/js/453.386fa6a6.chunk.js",
+    "index.html": "/orchidea_lilac/index.html",
+    "main.286dbf45.css.map": "/orchidea_lilac/static/css/main.286dbf45.css.map",
+    "main.b4b31a3a.js.map": "/orchidea_lilac/static/js/main.b4b31a3a.js.map",
+    "453.386fa6a6.chunk.js.map": "/orchidea_lilac/static/js/453.386fa6a6.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.286dbf45.css",
+    "static/js/main.b4b31a3a.js"
+  ]
+}
