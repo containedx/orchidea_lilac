@@ -1,14 +1,13 @@
-
+import React from 'react';
 import './App.css';
 import MainBlock from "./components/MainBlock";
+import Intro from "./components/Intro";
 
 
 function App() {
   return (
     <div className="App">
-      <header className="App-header">
-        <MainBlock></MainBlock>
-      </header>
+      <Intro />
     </div >
   );
 }

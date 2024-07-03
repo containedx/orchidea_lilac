@@ -13,4 +13,10 @@
   color: rgb(67, 41, 70);
   font-weight: bold;
   font-family: Courier, monospace;
+  opacity: 0;
+  transition: opacity 1s ease-out;
+}
+
+.container.loaded + .App-header {
+  opacity: 1;
 }

@@ -1,0 +1,43 @@
+body, html, #root, .App {
+  height: 100%;
+  margin: 0;
+  overflow: hidden;
+}
+
+.container {
+  position: relative;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  background-color: #d877df;
+}
+
+.image {
+  position: absolute;
+  width: 80%;
+  height: 80%;
+  background-size: cover;
+  background-position: center;
+  transition: transform 1s ease-out;
+}
+
+.image1 {
+  background-image: url('../assets/cloud2.png');
+  left: 0;
+  transform: translateX(50%);
+}
+
+.image2 {
+  background-image: url('../assets/cloud3.png');
+  right: 0;
+  transform: translateX(-50%);
+}
+
+.container.loaded .image1 {
+  transform: translateX(-100%);
+}
+
+.container.loaded .image2 {
+  transform: translateX(100%);
+}
