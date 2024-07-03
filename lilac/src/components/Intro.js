@@ -8,7 +8,11 @@ function Intro() {
     const container = document.querySelector('.container');
     container.classList.remove('loaded');
     container.getBoundingClientRect();
-    container.classList.add('loaded');
+    //container.classList.add('loaded');
+
+    setTimeout(() => {
+      container.classList.add('loaded');
+    }, 3000);
   }, []);
 
   return (
