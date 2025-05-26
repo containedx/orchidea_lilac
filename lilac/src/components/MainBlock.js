@@ -4,6 +4,7 @@ import cat from '../assets/cat_pixel.png';
 import avatar from '../assets/my_pixel_avatar.png';
 import avatar2 from '../assets/my_pixel_avatar2.png';
 import React, { useState } from 'react';
+import { Link } from 'react-router-dom';
 
 export default function MainBlock() {
 
@@ -26,6 +27,13 @@ export default function MainBlock() {
                 <a href="https://www.linkedin.com/in/kinga-zawarty/" target="_blank">linkedin</a>
                 <a href="https://github.com/containedx" target="_blank">github</a>
             </div>
+
+            <Link to="/Programming">Go to podstrona</Link>
+            <div></div>
+            <Link to="/Programming">
+                <button className="nav-button">Open Podstrona</button>
+            </Link>
+
         </div>
     );
 
