@@ -13,7 +13,7 @@ function Intro() {
 
     setTimeout(() => {
       container.classList.add('loaded');
-    }, 3000);
+    }, 500);
   }, []);
 
   return (

@@ -23,13 +23,13 @@ body, html, #root, .App {
 }
 
 .image1 {
-  background-image: url('../../assets/clouds_left2.png');
+  background-image: url('../../assets/small_pixel_cloud_dark.png');
   left: 0;
   transform: translateX(0);
 }
 
 .image2 {
-  background-image: url('../../assets/clouds_right.png');
+  background-image: url('../../assets/small_pixel_cloud_dark.png');
   right: 0;
   transform: translateX(0);
 }
