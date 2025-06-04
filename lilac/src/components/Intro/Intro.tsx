@@ -3,13 +3,11 @@ import './Intro.css';
 import MainBlock from "../MainBlock/MainBlock";
 import SubpageBase from '../Subpages/SubpageBase';
 
-
-function Intro() {
+const Intro: React.FC = () => {
   useEffect(() => {
-    const container = document.querySelector('.container');
+    const container = document.querySelector('.container')!;
     container.classList.remove('loaded');
     container.getBoundingClientRect();
-    //container.classList.add('loaded');
 
     setTimeout(() => {
       container.classList.add('loaded');
@@ -17,15 +15,13 @@ function Intro() {
   }, []);
 
   return (
-  
     <div className="container">
-      <SubpageBase/>
-
-        <MainBlock />
+      <SubpageBase />
+      <MainBlock />
       <div className="image image1"></div>
       <div className="image image2"></div>
     </div>
   );
-}
+};
 
 export default Intro;
