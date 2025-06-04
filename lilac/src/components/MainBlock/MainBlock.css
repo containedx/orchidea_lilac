@@ -4,7 +4,7 @@
 
 .main-cloud {
     position: relative;
-    background-image: url('../assets/cloud.png');
+    background-image: url('../../assets/cloud.png');
     background-size: cover;
     background-position: center;
     padding: 20px;

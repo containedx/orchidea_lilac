@@ -1,0 +1,21 @@
+.subpage-background {
+    background-image: url('../../assets/small_pixel_cloud.png');
+    text-align: center;
+    width: 400px;
+    height: 200px; 
+    background-size: auto 100%;  
+    background-repeat: no-repeat;
+    align-items: center; 
+    justify-content: center;
+    display: flex;
+  }
+
+  .subpage-background:hover {
+    background-image: url('../../assets/small_pixel_cloud_dark.png');
+  }
+  
+  .subpage-background h2 {
+    margin: 0;
+    font-size: 16px;
+    color: #222;
+  }

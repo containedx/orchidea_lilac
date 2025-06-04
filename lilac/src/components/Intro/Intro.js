@@ -1,6 +1,7 @@
 import React, { useEffect } from 'react';
 import './Intro.css';
-import MainBlock from "./MainBlock";
+import MainBlock from "../MainBlock/MainBlock";
+import SubpageBase from '../Subpages/SubpageBase';
 
 
 function Intro() {
@@ -16,7 +17,10 @@ function Intro() {
   }, []);
 
   return (
+  
     <div className="container">
+      <SubpageBase/>
+
         <MainBlock />
       <div className="image image1"></div>
       <div className="image image2"></div>
