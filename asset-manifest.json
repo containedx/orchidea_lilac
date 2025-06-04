@@ -1,17 +1,13 @@
 {
   "files": {
-    "main.css": "/orchidea_lilac/static/css/main.62dec3d1.css",
-    "main.js": "/orchidea_lilac/static/js/main.8523509c.js",
-    "static/js/453.386fa6a6.chunk.js": "/orchidea_lilac/static/js/453.386fa6a6.chunk.js",
-    "static/media/clouds_left2.png": "/orchidea_lilac/static/media/clouds_left2.e4b246ffb04a4f7039a6.png",
-    "static/media/clouds_right.png": "/orchidea_lilac/static/media/clouds_right.47f71b1347b804162ec7.png",
+    "main.css": "/orchidea_lilac/static/css/main.31a83708.css",
+    "main.js": "/orchidea_lilac/static/js/main.fefc5bf5.js",
     "index.html": "/orchidea_lilac/index.html",
-    "main.62dec3d1.css.map": "/orchidea_lilac/static/css/main.62dec3d1.css.map",
-    "main.8523509c.js.map": "/orchidea_lilac/static/js/main.8523509c.js.map",
-    "453.386fa6a6.chunk.js.map": "/orchidea_lilac/static/js/453.386fa6a6.chunk.js.map"
+    "main.31a83708.css.map": "/orchidea_lilac/static/css/main.31a83708.css.map",
+    "main.fefc5bf5.js.map": "/orchidea_lilac/static/js/main.fefc5bf5.js.map"
   },
   "entrypoints": [
-    "static/css/main.62dec3d1.css",
-    "static/js/main.8523509c.js"
+    "static/css/main.31a83708.css",
+    "static/js/main.fefc5bf5.js"
   ]
 }
