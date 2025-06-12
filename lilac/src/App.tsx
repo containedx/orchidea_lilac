@@ -9,7 +9,7 @@ function App() {
   return (
     <Router>
       <Routes>
-        <Route path="/" element={<Intro />} />
+        <Route path="/orchidea_lilac" element={<Intro />} />
         <Route path="/Programming" element={<ProgrammingSubpage />} />
       </Routes>
     </Router>

@@ -10,12 +10,28 @@ body, html, #root, .App {
   justify-content: center;
   align-items: center;
   height: 100%;
-  background-color: #d877df;
+  background-color: var(--color-base);
+  flex-direction: column;
+}
+
+.content {
+  display: flex;
+  width: 100%;
+  flex: 1; 
+  justify-content: center;
+  align-items: center;
+  gap: 2rem; 
+}
+
+.mainHeader {
+  font-size: 160px;
+  font-style: bold;
+  color: var(--color-heading);
 }
 
 .image {
   position: absolute;
-  width: 100%;
+  width: 130%;
   height: 100%;
   background-size: cover;
   background-position: center;
@@ -23,21 +39,19 @@ body, html, #root, .App {
 }
 
 .image1 {
-  background-image: url('../../assets/small_pixel_cloud_dark.png');
-  left: 0;
-  transform: translateX(0);
+  background-image: url('../../assets/curtain.png');
+  transform: translateY(0);
 }
 
 .image2 {
-  background-image: url('../../assets/small_pixel_cloud_dark.png');
-  right: 0;
-  transform: translateX(0);
+  background-image: url('../../assets/curtain.png');
+  transform: translateY(0);
 }
 
 .container.loaded .image1 {
-  transform: translateX(-100%);
+  transform: translateY(-100%);
 }
 
 .container.loaded .image2 {
-  transform: translateX(100%);
+  transform: translateY(100%);
 }

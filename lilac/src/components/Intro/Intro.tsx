@@ -16,8 +16,26 @@ const Intro: React.FC = () => {
 
   return (
     <div className="container">
-      <SubpageBase />
-      <MainBlock />
+
+      <div className="mainHeader"> KINGA ZAWARTY </div>
+
+
+      <div className="content">
+        <div className="side-left">
+          <SubpageBase />
+          <SubpageBase />
+          <SubpageBase />
+        </div>
+
+        <MainBlock />
+
+        <div className="side-right">
+          <SubpageBase />
+          <SubpageBase />
+          <SubpageBase />
+        </div>
+      </div>
+
       <div className="image image1"></div>
       <div className="image image2"></div>
     </div>

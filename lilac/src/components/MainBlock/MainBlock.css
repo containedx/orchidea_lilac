@@ -4,11 +4,11 @@
 
 .main-cloud {
     position: relative;
-    background-image: url('../../assets/cloud.png');
+    background-image: url('../../assets/COLLAGE_ME.png');
     background-size: cover;
     background-position: center;
     padding: 20px;
-    height: 400px;
+    height: 600px;
     width: 600px;
 }
 
@@ -34,7 +34,7 @@
 }
 
 a {
-    color: #f8a2ee;
+    color: var(--color-text);
     text-transform: uppercase;
     font-size: 16px;
     text-decoration: none;
@@ -42,7 +42,7 @@ a {
 }
 
 a:hover {
-    color: #60f247;
+    color: var(--color-highlight);
     font-size: 24px;
 }
 
