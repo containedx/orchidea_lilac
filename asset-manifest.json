@@ -1,13 +1,32 @@
 {
   "files": {
-    "main.css": "/orchidea_lilac/static/css/main.31a83708.css",
-    "main.js": "/orchidea_lilac/static/js/main.fefc5bf5.js",
+    "main.css": "/orchidea_lilac/static/css/main.e17dfbea.css",
+    "main.js": "/orchidea_lilac/static/js/main.d4bf4df0.js",
+    "static/media/COLLAGE_ME.png": "/orchidea_lilac/static/media/COLLAGE_ME.3bcb9bbb01a13f7eeeb3.png",
+    "static/media/cloud_hover.png": "/orchidea_lilac/static/media/cloud_hover.e09b1a543fceb244fb22.png",
+    "static/media/cloud.png": "/orchidea_lilac/static/media/cloud.4787911635bbf062eaf6.png",
+    "static/media/space-mono-latin-400-normal.woff2": "/orchidea_lilac/static/media/space-mono-latin-400-normal.9f0479b996ad804e7f46.woff2",
+    "static/media/space-mono-latin-ext-400-normal.woff2": "/orchidea_lilac/static/media/space-mono-latin-ext-400-normal.b443a026278d222559a4.woff2",
+    "static/media/space-mono-latin-ext-400-normal.woff": "/orchidea_lilac/static/media/space-mono-latin-ext-400-normal.57e57c333b1bf3fccf27.woff",
+    "static/media/press-start-2p-latin-400-normal.woff2": "/orchidea_lilac/static/media/press-start-2p-latin-400-normal.efa4fd449b33df426d63.woff2",
+    "static/media/space-mono-latin-400-normal.woff": "/orchidea_lilac/static/media/space-mono-latin-400-normal.44f47718c73459b963cd.woff",
+    "static/media/press-start-2p-latin-ext-400-normal.woff2": "/orchidea_lilac/static/media/press-start-2p-latin-ext-400-normal.b27a48529cd27ca61884.woff2",
+    "static/media/space-mono-vietnamese-400-normal.woff2": "/orchidea_lilac/static/media/space-mono-vietnamese-400-normal.14f1baa9467c9d3dfdf5.woff2",
+    "static/media/press-start-2p-cyrillic-400-normal.woff2": "/orchidea_lilac/static/media/press-start-2p-cyrillic-400-normal.8ff2f96326994bf82403.woff2",
+    "static/media/press-start-2p-cyrillic-ext-400-normal.woff2": "/orchidea_lilac/static/media/press-start-2p-cyrillic-ext-400-normal.3f07e4fb28b05927ecf1.woff2",
+    "static/media/press-start-2p-greek-400-normal.woff2": "/orchidea_lilac/static/media/press-start-2p-greek-400-normal.3acde80c5447f629f3c7.woff2",
+    "static/media/press-start-2p-latin-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-latin-400-normal.68e7552200733f63019b.woff",
+    "static/media/space-mono-vietnamese-400-normal.woff": "/orchidea_lilac/static/media/space-mono-vietnamese-400-normal.d6f619b1ad461c119ee4.woff",
+    "static/media/press-start-2p-latin-ext-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-latin-ext-400-normal.84f0f463b89c3dd7ca7b.woff",
+    "static/media/press-start-2p-cyrillic-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-cyrillic-400-normal.f816e124dbc513bee81a.woff",
+    "static/media/press-start-2p-cyrillic-ext-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-cyrillic-ext-400-normal.d6e8f891ba8acb97894d.woff",
+    "static/media/press-start-2p-greek-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-greek-400-normal.a2a5944f91d5da4fd2b8.woff",
     "index.html": "/orchidea_lilac/index.html",
-    "main.31a83708.css.map": "/orchidea_lilac/static/css/main.31a83708.css.map",
-    "main.fefc5bf5.js.map": "/orchidea_lilac/static/js/main.fefc5bf5.js.map"
+    "main.e17dfbea.css.map": "/orchidea_lilac/static/css/main.e17dfbea.css.map",
+    "main.d4bf4df0.js.map": "/orchidea_lilac/static/js/main.d4bf4df0.js.map"
   },
   "entrypoints": [
-    "static/css/main.31a83708.css",
-    "static/js/main.fefc5bf5.js"
+    "static/css/main.e17dfbea.css",
+    "static/js/main.d4bf4df0.js"
   ]
 }
