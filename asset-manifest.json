@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/orchidea_lilac/static/css/main.e17dfbea.css",
-    "main.js": "/orchidea_lilac/static/js/main.d4bf4df0.js",
+    "main.css": "/orchidea_lilac/static/css/main.47906368.css",
+    "main.js": "/orchidea_lilac/static/js/main.d8092005.js",
     "static/media/COLLAGE_ME.png": "/orchidea_lilac/static/media/COLLAGE_ME.3bcb9bbb01a13f7eeeb3.png",
     "static/media/cloud_hover.png": "/orchidea_lilac/static/media/cloud_hover.e09b1a543fceb244fb22.png",
     "static/media/cloud.png": "/orchidea_lilac/static/media/cloud.4787911635bbf062eaf6.png",
@@ -22,11 +22,11 @@
     "static/media/press-start-2p-cyrillic-ext-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-cyrillic-ext-400-normal.d6e8f891ba8acb97894d.woff",
     "static/media/press-start-2p-greek-400-normal.woff": "/orchidea_lilac/static/media/press-start-2p-greek-400-normal.a2a5944f91d5da4fd2b8.woff",
     "index.html": "/orchidea_lilac/index.html",
-    "main.e17dfbea.css.map": "/orchidea_lilac/static/css/main.e17dfbea.css.map",
-    "main.d4bf4df0.js.map": "/orchidea_lilac/static/js/main.d4bf4df0.js.map"
+    "main.47906368.css.map": "/orchidea_lilac/static/css/main.47906368.css.map",
+    "main.d8092005.js.map": "/orchidea_lilac/static/js/main.d8092005.js.map"
   },
   "entrypoints": [
-    "static/css/main.e17dfbea.css",
-    "static/js/main.d4bf4df0.js"
+    "static/css/main.47906368.css",
+    "static/js/main.d8092005.js"
   ]
 }
