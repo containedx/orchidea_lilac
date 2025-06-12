@@ -24,9 +24,15 @@ body, html, #root, .App {
 }
 
 .mainHeader {
-  font-size: 160px;
+  font-size: 106px;
   font-style: bold;
-  color: var(--color-heading);
+  color: #171717;
+  font-family: 'Press Start 2P';
+  text-align: center;
+  display: inline-block;
+  line-height: 1.2;
+  margin-top: 50px; /* add space from top */
+  width: 40%;
 }
 
 .image {
@@ -55,3 +61,22 @@ body, html, #root, .App {
 .container.loaded .image2 {
   transform: translateY(100%);
 }
+
+
+.side-left, .side-right {
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+}
+
+.letter {
+  display: inline-block;
+  transition: transform 0.2s ease;
+}
+
+.letter:hover {
+  transform: scale(1.2);
+  color: var(--color-highlight);
+}
+
+

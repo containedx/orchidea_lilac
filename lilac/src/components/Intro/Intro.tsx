@@ -17,7 +17,7 @@ const Intro: React.FC = () => {
   return (
     <div className="container">
 
-      <div className="mainHeader"> KINGA ZAWARTY </div>
+      
 
 
       <div className="content">
@@ -27,7 +27,17 @@ const Intro: React.FC = () => {
           <SubpageBase />
         </div>
 
-        <MainBlock />
+        <div className="mainHeader"> 
+          {"KINGA".split("").map((char, index) => (
+          <span key={`k-${index}`} className="letter">{char}</span>
+          ))}
+          <br />
+          {"ZAWARTY".split("").map((char, index) => (
+          <span key={`z-${index}`} className="letter">{char}</span>
+          ))}
+          <MainBlock />
+        </div>
+        
 
         <div className="side-right">
           <SubpageBase />

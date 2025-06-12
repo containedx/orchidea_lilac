@@ -7,10 +7,15 @@
     background-image: url('../../assets/COLLAGE_ME.png');
     background-size: cover;
     background-position: center;
-    padding: 20px;
+    padding: 10px;
     height: 600px;
     width: 600px;
+    margin-left: 80px;
 }
+
+.main-cloud:hover {
+    transform: scale(1.05);
+  }
 
 
 .cat {
