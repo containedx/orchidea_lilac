@@ -25,7 +25,7 @@ const Intro: React.FC = () => {
         <div className="side-left">
           <SubpageBase offset={-30} title={"Resume"}  />
           <SubpageBase offset={100}  title={"Programming"} />
-          <SubpageBase offset={20}  title={"My Games"} />
+          <SubpageBase offset={20}  title={"My Games"} cloudIndex={1} />
         </div>
 
         <div className="mainHeader"> 
@@ -42,7 +42,7 @@ const Intro: React.FC = () => {
         
 
         <div className="side-right">
-          <SubpageBase offset={-30} title={"About Me"}/>
+          <SubpageBase offset={-30} title={"About Me"} cloudIndex={2}/>
           <SubpageBase offset={-140} title={"My Art Side"} />
           <SubpageBase offset={0} title={"Interactive Resume"} />
         </div>
