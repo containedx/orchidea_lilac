@@ -2,6 +2,7 @@ import React, { useEffect } from 'react';
 import './Intro.css';
 import MainBlock from "../MainBlock/MainBlock";
 import SubpageBase from '../Subpages/SubpageBase';
+import SpotifyPlaylist from '../Spotify/SpotifyPlaylist';
 
 const Intro: React.FC = () => {
   useEffect(() => {
@@ -36,6 +37,7 @@ const Intro: React.FC = () => {
           <span key={`z-${index}`} className="letter">{char}</span>
           ))}
           <MainBlock />
+          <SpotifyPlaylist />
         </div>
         
 
