@@ -4,10 +4,12 @@ import { Link } from 'react-router-dom';
 
 type Props = {
     offset: number;
+    subpageLink?: string;
+    title?: string;
   };
 
 
-export default function SubpageBase( { offset }: Props ) {
+export default function SubpageBase( { offset, subpageLink = "/Programming", title = "SubpageLink"}: Props ) {
     const ref = useRef<HTMLAnchorElement>(null);
 
   // Random phase offsets generated once
@@ -36,9 +38,9 @@ export default function SubpageBase( { offset }: Props ) {
 
     return (
      <div> 
-        <Link to="/Programming" className="subpage-background" ref={ref} >
+        <Link to={subpageLink} className="subpage-background" ref={ref} >
 
-            <span>subpage link</span>
+            <span>{title}</span>
         </Link>
     </div>  
     );
