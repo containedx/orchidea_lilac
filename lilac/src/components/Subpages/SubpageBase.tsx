@@ -63,7 +63,7 @@ export default function SubpageBase( { offset, subpageLink = "/Programming", tit
         onMouseEnter={() => setIsHovered(true)}
         onMouseLeave={() => setIsHovered(false)}
         >
-            <span>{title}</span>
+            <span className='subpage-text'>{title}</span>
         </Link>
     </div>  
     );

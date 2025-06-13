@@ -15,9 +15,13 @@
   .subpage-background:hover {
     transform: scale(1.2);
   }
-  
-  .subpage-background h2 {
-    margin: 0;
-    font-size: 16px;
+
+  .subpage-text {
+    max-width: 200px;  
+    margin: auto;
+    text-align: center;
+    font-size: 12px;
+    font-family: 'Press Start 2P';
     color: var(--color-heading);
   }
+  
