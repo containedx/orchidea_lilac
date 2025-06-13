@@ -22,9 +22,9 @@ const Intro: React.FC = () => {
 
       <div className="content">
         <div className="side-left">
-          <SubpageBase />
-          <SubpageBase />
-          <SubpageBase />
+          <SubpageBase offset={-30}  />
+          <SubpageBase offset={100}  />
+          <SubpageBase offset={20}  />
         </div>
 
         <div className="mainHeader"> 
@@ -40,9 +40,9 @@ const Intro: React.FC = () => {
         
 
         <div className="side-right">
-          <SubpageBase />
-          <SubpageBase />
-          <SubpageBase />
+          <SubpageBase offset={-30} />
+          <SubpageBase offset={-140} />
+          <SubpageBase offset={0} />
         </div>
       </div>
 

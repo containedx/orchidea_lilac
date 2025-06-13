@@ -2,8 +2,12 @@ import React, { useEffect, useRef } from 'react';
 import './SubpageBase.css';
 import { Link } from 'react-router-dom';
 
+type Props = {
+    offset: number;
+  };
 
-export default function SubpageBase() {
+
+export default function SubpageBase( { offset }: Props ) {
     const ref = useRef<HTMLAnchorElement>(null);
 
   // Random phase offsets generated once
@@ -20,19 +24,20 @@ export default function SubpageBase() {
       const elapsed = time / 1000; // convert ms to seconds
       const x = 5 * Math.sin(elapsed * 2 + randomX);
       const y = 5 * Math.cos(elapsed * 1.5 + randomY);
-      el.style.transform = `translate(${x}px, ${y}px)`;
+      el.style.transform = `translate(${x + offset}px, ${y}px)`;
       animationFrameId = requestAnimationFrame(animate);
     };
 
     animationFrameId = requestAnimationFrame(animate);
 
     return () => cancelAnimationFrame(animationFrameId);
-  }, [randomX, randomY]);
+  }, [randomX, randomY, offset]);
 
 
     return (
      <div> 
-        <Link to="/Programming" className="subpage-background" ref={ref}>
+        <Link to="/Programming" className="subpage-background" ref={ref} >
+
             <span>subpage link</span>
         </Link>
     </div>  
