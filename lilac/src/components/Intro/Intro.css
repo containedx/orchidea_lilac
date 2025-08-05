@@ -1,44 +1,41 @@
-body, html, #root, .App {
-  height: 100%;
-  margin: 0;
-  overflow: hidden;
-}
+
 
 .container {
   position: relative;
   display: flex;
   justify-content: center;
   align-items: center;
-  height: 100%;
+  height: 100vh;
   background-color: var(--color-base);
   flex-direction: column;
 }
 
 .content {
   display: flex;
-  width: 100%;
+  width: 100vw;
   flex: 1; 
   justify-content: center;
   align-items: center;
-  gap: 2rem; 
+  gap: 2vh; 
 }
 
 .mainHeader {
-  font-size: 80px;
+  font-size: 4vw;
   font-style: bold;
   color: #171717;
   font-family: 'Press Start 2P';
   text-align: center;
   display: inline-block;
   line-height: 1.2;
-  margin-top: 50px; /* add space from top */
-  width: 40%;
+  margin-top: 5vh; /* kazdy margin bedzie oddzialywal na ogolna wielkosc strony = dasz margin-top: 50px 
+  to wtedy jak wrapper(div albo section albo inny html tag) ma 100% to po tym juz ma 100% + 5opx. PS staraj soe uzywac responsywnych miar, cos w stylu vh|vw */
+  width: 40vw;
 }
 
 .image {
   position: absolute;
-  width: 130%;
-  height: 100%;
+  width: 130vw;
+  height: 100vh;
   background-size: cover;
   background-position: center;
   transition: transform 1s ease-out;

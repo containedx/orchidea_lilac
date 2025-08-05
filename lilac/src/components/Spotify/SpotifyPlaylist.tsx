@@ -2,7 +2,7 @@
 export default function SpotifyPlaylist() {
     return (
       <iframe
-        style={{ borderRadius: '12px', marginTop: '20px' }}
+        style={{ borderRadius: '12px', marginTop: '-2vh' }}
         src="https://open.spotify.com/embed/playlist/37i9dQZF1DWVEaynofUD86?utm_source=generator&theme=0"
         width="60%"
         height="100"

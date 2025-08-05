@@ -17,17 +17,12 @@ const Intro: React.FC = () => {
 
   return (
     <div className="container">
-
-      
-
-
       <div className="content">
         <div className="side-left">
           <SubpageBase offset={-30} title={"Resume"}  />
           <SubpageBase offset={100}  title={"Programming"} />
           <SubpageBase offset={20}  title={"My Games"} cloudIndex={1} />
         </div>
-
         <div className="mainHeader"> 
           {"KINGA".split("").map((char, index) => (
           <span key={`k-${index}`} className="letter">{char}</span>
@@ -39,8 +34,6 @@ const Intro: React.FC = () => {
           <MainBlock />
           <SpotifyPlaylist />
         </div>
-        
-
         <div className="side-right">
           <SubpageBase offset={-30} title={"About Me"} cloudIndex={2}/>
           <SubpageBase offset={-140} title={"My Art Side"} />
