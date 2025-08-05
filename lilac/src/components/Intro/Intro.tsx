@@ -32,7 +32,6 @@ const Intro: React.FC = () => {
           <span key={`z-${index}`} className="letter">{char}</span>
           ))}
           <MainBlock />
-          <SpotifyPlaylist />
         </div>
         <div className="side-right">
           <SubpageBase offset={-30} title={"About Me"} cloudIndex={2}/>
